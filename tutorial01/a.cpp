@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 typedef struct{
@@ -9,12 +10,15 @@ int main()
 {
 	lept_context c;
 	c.json = "ABC";
+	string a = "BDFG";
+const string &b = c.json;
 	const char *p = c.json;
-	while( *p ){
-		cout << *p << endl;
-		p++;
-	}
-	
+//	while( *p ){
+//		cout << *p << endl;
+//		p++;
+//	}
+
+	cout <<  << endl;;
 	
 	return 0;
 	
